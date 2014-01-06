@@ -7,7 +7,7 @@
  */
 class EventRegisterPaymentStep extends MultiFormStep {
 
-	public static $is_final_step = true;
+	private static $is_final_step = true;
 
 	public function getTitle() {
 		return 'Payment';

@@ -6,7 +6,7 @@
  */
 class EventUnregisterController extends Page_Controller {
 
-	public static $allowed_actions = array(
+	private static $allowed_actions = array(
 		'UnregisterForm',
 		'afterunregistration',
 		'confirm'

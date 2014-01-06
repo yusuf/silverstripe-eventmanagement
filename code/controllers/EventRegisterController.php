@@ -7,11 +7,11 @@
  */
 class EventRegisterController extends Page_Controller {
 
-	public static $url_handlers = array(
+	private static $url_handlers = array(
 		'' => 'index'
 	);
 
-	public static $allowed_actions = array(
+	private static $allowed_actions = array(
 		'RegisterForm',
 		'confirm'
 	);
